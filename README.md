@@ -1,4 +1,6 @@
-# posts-app
+# posts-app first app 
+
+The basics, two-way binding, directives, mixins modifiers, component lifecycle, router, state management, store, composition API
 
 ## Project setup
 ```
