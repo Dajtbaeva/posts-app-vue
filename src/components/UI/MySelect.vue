@@ -10,7 +10,7 @@
 export default {
   name: "my-select",
   props: {
-    modelValue: {
+    value: {
       type: String,
     },
     options: {
@@ -20,7 +20,7 @@ export default {
   },
   methods: {
     changeOption(event) {
-      this.$emit("update:modelValue", event.target.value);
+      this.$emit("update:value", event.target.value);
     },
   },
 };

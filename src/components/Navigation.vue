@@ -1,16 +1,21 @@
 <template>
   <div class="nav">
-    <div @click="$router.push('/')" style="cursor: pointer;">Posts App</div>
+    <div @click="$router.push('/')" style="cursor: pointer">Posts App</div>
     <div class="nav__btns">
       <my-button
-        style="margin-left: 20px; cursor: pointer;"
+        style="margin-left: 20px; cursor: pointer"
         @click="$router.push('/posts')"
         >Posts</my-button
       >
       <my-button
-        style="margin-left: 20px; cursor: pointer;"
-        @click="$router.push('/posts')"
-        >Posts</my-button
+        style="margin-left: 20px; cursor: pointer"
+        @click="$router.push('/store')"
+        >Store</my-button
+      >
+      <my-button
+        style="margin-left: 20px; cursor: pointer"
+        @click="$router.push('/composition')"
+        >Composition</my-button
       >
     </div>
   </div>
